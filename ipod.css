@@ -35,20 +35,43 @@ body {
   width: 200px;
   height: 200px;
 	margin-left: 27%;
-	margin-top: -30%;
+	margin-top: -33%;
   position: relative;
   /*margin: 100px auto;*/
 }
 
 .spinner2 {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
 	margin-left: 10%;
 	margin-top: 5%;
   position: relative;
   /*margin: 100px auto;*/
 }
 
+.spinner3 {
+  width: 130px;
+  height: 130px;
+	margin-left	: 27%;
+	margin-top: 60px;
+  position: relative;
+}
+
+.spinner4 {
+  width: 130px;
+  height: 130px;
+	margin-left	: 5%;
+	margin-top: 20%;
+  position: relative;
+}
+
+.spinner5 {
+  width: 130px;
+  height: 130px;
+	margin-left: 51%;
+	margin-top: -43%;
+  position: relative;
+}
 .double-bounce1, .double-bounce2 {
   width: 100%;
   height: 100%;
@@ -112,6 +135,33 @@ body {
 	margin-left: 20%;
 	margin-top: 20%;
 	color: #fdffdf;
+}
+
+.material-icons.md-6 {
+	font-size: 90px;
+	border: 0;
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 15%;
+	color: #f3d7b5;
+}
+
+.material-icons.md-4 {
+	font-size: 90px;
+	border: 0;
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 15%;
+	color: #f3d7b5;
+}
+
+.material-icons.md-5 {
+	font-size: 90px;
+	border: 0;
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 15%;
+	color: #f3d7b5;
 }
 
 .head-bar1 {
@@ -191,4 +241,65 @@ body {
 	width: 200px;
 	margin: 0 auto;
 	margin-left: 23%;
+}
+
+.search-result {
+
+}
+
+.img {
+	float: left;
+	margin-left: 2%;
+	margin-top: 2%;
+	position: relative;
+	width: 25%;
+}
+
+.search-result1 {
+	position: relative;
+	background-color: #F9F0DA;
+	padding: 0px;
+	margin: 10px;
+	margin-left: 12px;
+	margin-top: 10%;
+	height: 15%;
+	width: 90%;
+	border: 1px solid white;
+}
+
+.search-result2 {
+	background-color: #F9F0DA;
+	padding: 0px;
+	margin: 10px;
+	margin-left: 12px;
+	margin-top: -5%;
+	height: 15%;
+	width: 90%;
+	border: 1px solid white;
+}
+
+.search-result3 {
+	position: relative;
+	top:80%;
+	background-color: #F9F0DA;
+	padding: 0px;
+	margin: 10px;
+	margin-left: 12px;
+	margin-top: -5%;
+	height: 15%;
+	width: 90%;
+	border: 1px solid white;
+}
+
+.search-result4 {
+	position: relative;
+	top:80%;
+	background-color: #F9F0DA;
+	padding: 0px;
+	margin: 10px;
+	margin-left: 12px;
+	margin-top: -5%;
+	height: 15%;
+	width: 90%;
+	border: 1px solid white;
 }
