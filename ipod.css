@@ -338,3 +338,37 @@ body {
 	width: 90%;
 	border: 1px solid white;
 }
+
+.search-result5 {
+	position: relative;
+	background-color: #F9F0DA;
+	padding: 0px;
+	margin: 10px;
+	margin-left: 12px;
+	margin-top: 5%;
+	height: 15%;
+	width: 90%;
+	border: 1px solid white;
+}
+
+.search-result6 {
+	position: relative;
+	top:80%;
+	background-color: #F9F0DA;
+	padding: 0px;
+	margin: 10px;
+	margin-left: 12px;
+	margin-top: 5%;
+	height: 15%;
+	width: 90%;
+	border: 1px solid white;
+}
+
+.text3 {
+	font-size: 20px;
+	margin-left: 10%;
+	margin-top: 4%;
+	text-align: center;
+	font-family: sans-serif;
+	color: #c7b3e5;
+}
