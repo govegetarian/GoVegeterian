@@ -1,0 +1,474 @@
+/*
+	Global classes
+					*/
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+	background-color: #efcee8;
+}
+
+@font-face {
+  font-family: font_1;
+  src: url('font/Ralphie Brown.ttf');
+            }
+
+#my-header {
+	/*background-color: #e6ccff;*/
+	color: #daf9ca;
+	padding-top: 14%;
+	height: 30%;
+	font-size: 100px;
+	font-family: font_1;
+	margin-left: -10%;
+	/*font-weight: 900;*/
+	font-style: italic;
+	text-align: center;
+}
+
+.spinner1 {
+  width: 200px;
+  height: 200px;
+	margin-left: 27%;
+	margin-top: -33%;
+  position: relative;
+  /*margin: 100px auto;*/
+}
+
+.spinner2 {
+  width: 100px;
+  height: 100px;
+	margin-left: 10%;
+	margin-top: 5%;
+  position: relative;
+  /*margin: 100px auto;*/
+}
+
+.spinner3 {
+  width: 130px;
+  height: 130px;
+	margin-left	: 27%;
+	margin-top: 60px;
+  position: relative;
+}
+
+.spinner4 {
+  width: 130px;
+  height: 130px;
+	margin-left	: 5%;
+	margin-top: 20%;
+  position: relative;
+}
+
+.spinner5 {
+  width: 130px;
+  height: 130px;
+	margin-left: 51%;
+	margin-top: -43%;
+  position: relative;
+}
+.double-bounce1, .double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #c7b3e5;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  -webkit-animation: bounce 2.0s infinite ease-in-out;
+  animation: bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce3 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #c7b3e5;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+
+.double-bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+.material-icons.md-1 {
+	font-size: 150px;
+	border: 0;
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 15%;
+	color: #f3d7b5;
+}
+
+.material-icons.md-2 {
+	font-size: 70px;
+	border: 0;
+	position: absolute;
+	margin-left: 20%;
+	margin-top: 20%;
+	color: #fdffdf;
+}
+
+.material-icons.md-6 {
+	font-size: 90px;
+	border: 0;
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 15%;
+	color: #f3d7b5;
+}
+
+.material-icons.md-4 {
+	font-size: 90px;
+	border: 0;
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 15%;
+	color: #f3d7b5;
+}
+
+.material-icons.md-5 {
+	font-size: 90px;
+	border: 0;
+	position: absolute;
+	margin-left: 15%;
+	margin-top: 15%;
+	color: #f3d7b5;
+}
+
+.head-bar1 {
+	background-color: #f3d7b5;
+	height: 45px;
+}
+
+
+.recipe {
+    margin-top: 1px;
+	background-color: #fdffdf;
+    text-align: center;
+    color:#266ee2;
+    height: 20%;
+    width: 100%;       
+}
+
+.recipe .rec_title {
+    padding-top: 10%;
+    font-size: 20;
+}
+
+.recipe_image {
+    float: left;
+    margin: 1px;
+    height: 98%;
+    width: 40%;
+}
+.rating_bar {
+    width: 100%;
+    margin-top: 1px;
+	background-color: #fdffdf;
+    color:#266ee2;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #fff;
+    font-size: 11;
+}
+
+
+.rating_bar .your_rating{
+    float:center;
+    padding: 1px;
+}
+
+
+.rating_bar .nutrition-facts{
+    font-size: 15px;
+    text-align: center;
+}
+
+.rating_bar .nutrition_base {
+    padding-left: 4px;
+    
+}
+
+
+.share{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+}
+
+
+.amount {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.review {
+    border-top: 2px solid;
+    margin: 4px;
+    padding-top: 14px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+
+}
+
+.review_auth {
+ padding-bottom: 10px;
+}
+
+.review_posted{
+ padding-top: 10px;
+ 
+}
+.empty {
+   margin-left: 40%;
+   margin-bottom: 30px;
+}
+.daily_val {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-weight: bold;
+    height: 10px;
+}
+
+ .nutrition_right {
+    float: right;
+    margin-left: 40%;
+    margin-right: 2%;
+
+}
+
+.cost_check {
+    display: none;
+}
+
+.ing_check {
+    display: none;
+}
+
+.filter_item {
+    margin:4px;
+    border-top: 1px solid;
+    padding-bottom: 5px;
+}
+
+#filter_id {
+    text-align:center;
+    display:none;
+    background-color: #fdffdf;
+    color: #c7b3e5;
+}
+
+.material-icons.md-3 {
+
+	background-color: #fdffdf;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	margin: 8px;
+
+	height: 20px;
+	width: 20px;
+	float: left;
+	border: 1px solid white;
+}
+
+.head_recipes {
+    float: left;
+	font-size: 20px;
+	margin-left: 2%;
+	margin-top: 2.5%;
+	text-align: center;
+	font-family: sans-serif;
+	color: #fdffdf;
+}
+
+.search-bar {background: #f3d7b5;}
+
+.search-bar form {
+    height: 33px;
+}
+
+#search-bar-id{
+
+}
+
+.search-bar input {
+		width: 100%;
+		border: none;
+		outline: none;
+		height: 90%;
+		padding-left: 10%;
+        
+
+        width: 250px;
+        border-radius: 40px;
+        border: 2px solid #324B4E;
+        background: #F9F0DA;
+        transition: .3s linear;
+        float: right;
+		margin-top: -1%;
+}
+.search-bar input:focus {
+		border: none;
+		outline: none;
+		height: 90%;
+		padding-left: 13px;
+        width: 250px;
+}
+.search-bar button {
+		border: none;
+		outline: none;
+		height: 90%;
+		width: 17%;
+		cursor: pointer;
+		position: absolute;
+        background: none;
+        top: 2px;
+        right: 0;
+}
+.search-bar button:before{
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #324b4e;
+}
+.form-search-bar {
+	position: relative;
+	width: 200px;
+	margin: 0 auto;
+	margin-left: 23%;
+    padding-bottom:2%;
+}
+
+.search-result {
+
+}
+
+.img {
+	float: left;
+	margin-left: 2%;
+	margin-top: 1.5%;
+	position: relative;
+	
+    height: 90%;
+}
+
+.search-result1 {
+	position: relative;
+	background-color: #F9F0DA;
+	padding: 0px;
+	margin: 10px;
+	margin-left: 12px;
+	margin-top: 10%;
+	height: 15%;
+	width: 90%;
+	border: 1px solid white;
+}
+
+.back_button {
+ float: left;
+}
+
+.search-result2 {
+	background-color: #F9F0DA;
+	padding: 0px;
+	margin: 10px;
+	margin-left: 12px;
+	margin-top: -5%;
+	height: 15%;
+	width: 90%;
+	border: 1px solid white;
+}
+
+.search-result3 {
+	position: relative;
+	top:80%;
+	background-color: #F9F0DA;
+	padding: 0px;
+	margin: 10px;
+	margin-left: 12px;
+	margin-top: -5%;
+	height: 15%;
+	width: 90%;
+	border: 1px solid white;
+}
+
+.search-result4 {
+	position: relative;
+	top:80%;
+	background-color: #F9F0DA;
+	padding: 0px;
+	margin: 10px;
+	margin-left: 12px;
+	margin-top: -5%;
+	height: 15%;
+	width: 90%;
+	border: 1px solid white;
+}
+
+.search-result5 {
+	position: relative;
+	background-color: #F9F0DA;
+	padding: 0px;
+	margin: 10px;
+	margin-left: 12px;
+	margin-top: 5%;
+	height: 15%;
+	width: 90%;
+	border: 1px solid white;
+}
+
+.search-result6 {
+	position: relative;
+	top:80%;
+	background-color: #F9F0DA;
+	padding: 0px;
+	margin: 10px;
+	margin-left: 12px;
+	margin-top: 5%;
+	height: 15%;
+	width: 90%;
+	border: 1px solid white;
+}
+
+.text3 {
+	font-size: 20px;
+	margin-left: 10%;
+	margin-top: 4%;
+	text-align: center;
+	font-family: sans-serif;
+	color: #c7b3e5;
+}
