@@ -14,10 +14,12 @@ body {
 	margin: 105px 23px;
 	background-color: #efcee8;
 }
+
 @font-face {
   font-family: font_1;
   src: url('font/Ralphie Brown.ttf');
             }
+
 #my-header {
 	/*background-color: #e6ccff;*/
 	color: #daf9ca;
@@ -117,7 +119,6 @@ body {
     -webkit-transform: scale(1.0);
   }
 }
-
 
 .material-icons.md-1 {
 	font-size: 150px;
@@ -269,6 +270,27 @@ body {
 
 }
 
+.cost_check {
+    display: none;
+}
+
+.ing_check {
+    display: none;
+}
+
+.filter_item {
+    margin:4px;
+    border-top: 1px solid;
+    padding-bottom: 5px;
+}
+
+#filter_id {
+    text-align:center;
+    display:none;
+    background-color: #fdffdf;
+    color: #c7b3e5;
+}
+
 .material-icons.md-3 {
 
 	background-color: #fdffdf;
@@ -295,9 +317,15 @@ body {
 }
 
 .search-bar {background: #f3d7b5;}
+
 .search-bar form {
     height: 33px;
 }
+
+#search-bar-id{
+
+}
+
 .search-bar input {
 		width: 100%;
 		border: none;
