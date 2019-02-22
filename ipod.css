@@ -119,7 +119,16 @@ body {
     -webkit-transform: scale(1.0);
   }
 }
-
+.material-icons.md-11 {
+	font-size: 30px;
+	border: 0;
+	position: absolute;
+	margin-left: 265px;
+	margin-top: 0.5%;
+	color: #fdffdf;
+    padding:0;
+    border-radius: 50%;
+}
 .material-icons.md-1 {
 	font-size: 150px;
 	border: 0;
@@ -177,7 +186,7 @@ body {
     text-align: center;
     color:#266ee2;
     height: 20%;
-    width: 100%;       
+    width: 100%;
 }
 
 .recipe .rec_title {
@@ -217,7 +226,7 @@ body {
 
 .rating_bar .nutrition_base {
     padding-left: 4px;
-    
+
 }
 
 
@@ -250,7 +259,7 @@ body {
 
 .review_posted{
  padding-top: 10px;
- 
+
 }
 .empty {
    margin-left: 40%;
@@ -332,7 +341,7 @@ body {
 		outline: none;
 		height: 90%;
 		padding-left: 10%;
-        
+
 
         width: 250px;
         border-radius: 40px;
@@ -382,10 +391,18 @@ body {
 	margin-left: 2%;
 	margin-top: 1.5%;
 	position: relative;
-	
+
     height: 90%;
 }
 
+.img1 {
+	float: left;
+	margin-left: 9%;
+	margin-top: -4%;
+	position: relative;
+	width: 65px;
+    height: auto;
+}
 .search-result1 {
 	position: relative;
 	background-color: #F9F0DA;
@@ -471,4 +488,79 @@ body {
 	text-align: center;
 	font-family: sans-serif;
 	color: #c7b3e5;
+}
+
+.text-user {
+	font-size: 20px;
+	margin-left: 33%;
+	margin-top: 9%;
+	text-align: center;
+	font-family: sans-serif;
+	color: #c7b3e5;
+}
+.text2-1 {
+	font-size: 13px;
+	margin-left: -10%;
+	margin-top: 3%;
+	text-align: center;
+	font-family: sans-serif;
+	color: #c7b3e5;
+}
+
+.text2-2 {
+	font-size: 13px;
+	margin-left: -6%;
+	margin-top: 3%;
+	text-align: center;
+	font-family: sans-serif;
+	color: #c7b3e5;
+}
+
+.text2-3 {
+	font-size: 13px;
+	margin-left: -15%;
+	margin-top: 3%;
+	text-align: center;
+	font-family: sans-serif;
+	color: #c7b3e5;
+}
+
+.text2-4 {
+	font-size: 16px;
+	margin-top: 3%;
+	text-align: left;
+	font-family: sans-serif;
+	color: #c7b3e5;
+	margin-left: 5%;
+	margin-bottom: 2%;
+}
+.form-style1 {
+	font-size: 13px;
+	background-color: #F9F0DA;
+	font-family: sans-serif;
+	color: #c7b3e5;
+	border:	1px solid;
+	border-radius: 0%;
+}
+
+.form-style2 {
+	font-size: 13px;
+	background-color: BlueGray;
+	font-family: sans-serif;
+	color: #c7b3e5;
+	border:	1px solid;
+	border-radius: 0%;
+	margin-left: 13%;
+}
+
+.search-result1-user-profile {
+	position: relative;
+	background-color: #F9F0DA;
+	padding: 0px;
+	margin: 10px;
+	margin-left: 12px;
+	margin-top: 0%;
+	height: 15%;
+	width: 90%;
+	border: 1px solid white;
 }
