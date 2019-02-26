@@ -123,8 +123,8 @@ body {
 	font-size: 30px;
 	border: 0;
 	position: absolute;
-	margin-left: 265px;
-	margin-top: 0.5%;
+	margin-left: 270px;
+	margin-top: 1.5%;
 	color: #fdffdf;
     padding:0;
     border-radius: 50%;
@@ -172,6 +172,16 @@ body {
 	margin-left: 15%;
 	margin-top: 15%;
 	color: #f3d7b5;
+}
+
+.account {
+    float:right;
+    margin-top: 2%;
+}
+
+.account i {
+    font-size: 30px;
+	color: #fdffdf;
 }
 
 .head-bar1 {
