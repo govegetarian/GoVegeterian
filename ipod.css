@@ -62,7 +62,7 @@ body {
 .spinner4 {
   width: 130px;
   height: 130px;
-	margin-left	: 5%;
+	margin-left	: 27%;
 	margin-top: 20%;
   position: relative;
 }
@@ -204,10 +204,11 @@ body {
     font-size: 20;
 }
 
-.recipe_image {
+.recipe .recipe_image {
     float: left;
-    margin: 1px;
-    height: 98%;
+    margin-top: 0.3%;
+    height: 90%;
+    margin-left: 2%;
     width: 40%;
 }
 .rating_bar {
