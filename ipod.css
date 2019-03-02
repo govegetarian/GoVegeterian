@@ -249,7 +249,7 @@ body {
 }
 
 .ingred_head{
-    text-align: center;   
+    text-align: center;
 }
 
 .rating_bar.your_rating{
@@ -610,4 +610,144 @@ body {
 	height: 15%;
 	width: 90%;
 	border: 1px solid white;
+}
+
+.social1 {
+	position: relative;
+	background-color: #F9F0DA;
+	padding: 0px;
+	margin: 10px;
+	margin-left: 12px;
+	margin-top: 10%;
+	height: 19%;
+	width: 90%;
+	border: 1px solid white;
+}
+
+.social2 {
+	position: relative;
+	background-color: #F9F0DA;
+	padding: 0px;
+	margin: 10px;
+	margin-left: 12px;
+	margin-top: 10%;
+	height: 19%;
+	width: 90%;
+	border: 1px solid white;
+}
+
+.social3 {
+	position: relative;
+	background-color: #F9F0DA;
+	padding: 0px;
+	margin: 10px;
+	margin-left: 12px;
+	margin-top: 10%;
+	height: 19%;
+	width: 90%;
+	border: 1px solid white;
+}
+
+.social4 {
+	position: relative;
+	background-color: #F9F0DA;
+	padding: 0px;
+	margin: 10px;
+	margin-left: 12px;
+	margin-top: 10%;
+	height: 19%;
+	width: 90%;
+	border: 1px solid white;
+}
+
+.social-result {
+
+}
+.text-social1 {
+	font-size: 10px;
+	margin-left: 10%;
+	margin-top: 4%;
+	text-align: center;
+	font-family: sans-serif;
+	color: #c7b3e5;
+}
+
+.review1 {
+    margin: 4px;
+		margin-left: 112px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+		font-size: 10px;
+}
+
+.review_auth1 {
+ padding-bottom: 10px;
+
+}
+
+.review_posted1{
+ padding-top: 10px;
+
+}
+
+.postbutton {
+	position: relative;
+	background-color: #F9F0DA;
+	padding: 0px;
+	margin: 10px;
+	margin-left: 12px;
+	margin-top: 10%;
+	height: 8%;
+	width: 90%;
+	border: 1px solid white;
+}
+
+.material-icons.md-post {
+	padding:10px;
+	height: 30px;
+	width: 30px;
+	margin-left: 40%;
+	margin-top: 0%;
+	color: grey;
+}
+
+.newpost-text {
+	font-size: 17px;
+	font-family: sans-serif;
+	color: Grey;
+}
+
+.newpost-text1 {
+	font-size: 11px;
+	font-family: sans-serif;
+	color: Grey;
+}
+
+.rating_bar1 {
+    width: 90%;
+    margin-top: 1px;
+		margin-left: 13px;
+	background-color: #fdffdf;
+    color:#266ee2;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #fff;
+    font-size: 11;
+}
+
+.review2 {
+    margin: 4px;
+		margin-left: 12px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+		font-size: 10px;
+}
+
+.newpost-button {
+	margin: 10px;
 }
