@@ -5,7 +5,7 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script src="ipod.js"></script>
+      <script src="profile.js"></script>
     </head>
     <body>
         <div id="screen" style="overflow: auto;">
@@ -17,27 +17,27 @@
 
           <div class="icon-name">
               <img class = "img1" src="images/user.png" alt="img1">
-              <p class = "text-user">Darkwing Duck</p>
+              <p id='profile-name' class = "text-user">Darkwing Duck</p>
               <br>
           </div>
-          <form action="/action_page.php">
+          
+          <form id='profile-form'  onsubmit="return false">
           <p class = "text2-1">Name:
-          <input class = "form-style1" type="text" name="name" value="Darkwing Duck"></p>
+          <input class = "form-style1" id='form-name' type="text" name="name" value="Darkwing Duck"></p>
           <p class = "text2-2">Age:
-          <input class = "form-style1" type="text" name="age" value="18"></p>
+          <input class = "form-style1" id='form-age' type="text" name="age" value="18"></p>
           <p class = "text2-3">Location:
-          <input class = "form-style1" type="text" name="Location" value="Evanston"></p>
-
-          <input class = "form-style2" type="submit" value="save">
+          <input class = "form-style1" id='form-location' type="text" name="Location" value="Evanston"></p>
+          <input id='pro-sub' type='submit' class = "form-style2" value='Save'></input>
           </form>
-          <p class = "text2-4"> favorite restaurant </p>
+          <p class = "text2-4"> Favorite restaurant </p>
             <div class="search-result1-user-profile">
                 <a href="restaurant1.html">
                 <img class = "img" src="images/restaurant1.jpg" alt="img1">
                 </a>
                 <p class = "text3">The Glass Onion</p>
             </div>
-            <p class = "text2-4"> favorite recipe </p>
+            <p class = "text2-4"> Favorite recipe </p>
             <div class="search-result1-user-profile">
                 <a href="recipe1.html">
                 <img class = "img" src="images/vegan-lemon-bars-1.jpg" alt="img1">
