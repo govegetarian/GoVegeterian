@@ -462,6 +462,18 @@ body {
 	border: 1px solid white;
 }
 
+.search-result-post {
+	position: relative;
+	background-color: #F9F0DA;
+	padding: 0px;
+	margin: 10px;
+	margin-left: 12px;
+	margin-top: 5%;
+	height: 15%;
+	width: 90%;
+	border: 1px solid white;
+}
+
 .back_button {
  float: left;
 }
@@ -526,6 +538,16 @@ body {
 	height: 15%;
 	width: 90%;
 	border: 1px solid white;
+}
+
+.review-text-box {
+    margin-top: 5%;
+    margin-left: 1%;
+    font-size: 15px;
+    background-color: #F9F0DA;
+    color: #266ee2;
+    width: 98%;
+    height: 30%;
 }
 
 .text3 {
@@ -714,12 +736,16 @@ body {
 }
 
 .newpost-text {
+    margin-top: 5%;
+    padding-left: 5%;
+    margin-bottom: 0; 
 	font-size: 17px;
 	font-family: sans-serif;
 	color: Grey;
 }
 
 .newpost-text1 {
+    margin-left: 1%;
 	font-size: 11px;
 	font-family: sans-serif;
 	color: Grey;
@@ -749,5 +775,6 @@ body {
 }
 
 .newpost-button {
-	margin: 10px;
+	margin: 1%;
+    height: 40px;
 }

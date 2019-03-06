@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>VEGI</title>
+        <link rel="stylesheet" type="text/css" href="ipod.css"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="ipod.js"></script>
+    </head>
+    <body>
+        <div id="screen" style="overflow: auto;">
+
+          <div class="head-bar1" overflow: auto;>
+          <a href="newpost.html"><i class="material-icons md-3">arrow_back</i></a>
+            <h3 class="head_recipes"> Write Review </h3>
+          <div class='account'>
+            <a href="person-profile.html"><i class="material-icons">account_circle</i></a>
+            </div>
+            <div class='home'>
+                <a href="front.html"><i class="material-icons">home</i></a>
+                </div>
+          </div>
+                  
+           <textarea style='resize: none;' class='review-text-box' type='text'>"Write your review here ..."</textarea>
+
+          <button type="button" class = "newpost-button"
+            onclick="document.getElementById('msg').innerHTML = 'Submitted, the Administrator is auditing'">
+            Submit</button>
+            <div id="msg" class = "newpost-text1"></p>
+
+        </div>
+   </body>
+</html>
+<!--
+* bg iphone img is 363x762px
+* iphone 'screen' is apprx 300x530 -->
