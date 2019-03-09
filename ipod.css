@@ -738,7 +738,7 @@ body {
 .newpost-text {
     margin-top: 5%;
     padding-left: 5%;
-    margin-bottom: 0; 
+    margin-bottom: 0;
 	font-size: 17px;
 	font-family: sans-serif;
 	color: Grey;
@@ -777,4 +777,65 @@ body {
 .newpost-button {
 	margin: 1%;
     height: 40px;
+}
+
+.login-content {
+	margin-left: 22%;
+}
+
+.img1-login {
+	margin-left: 36%;
+	margin-top: 20%;
+	position: relative;
+	width: 93px;
+    height: auto;
+}
+
+.text-user-login {
+	font-size: 20px;
+	margin-left: 2%;
+	margin-top: 9%;
+	text-align: center;
+	font-family: sans-serif;
+	color: #c7b3e5;
+}
+.text-form1 {
+	font-size: 13px;
+	margin-left: -30%;
+	text-align: center;
+	font-family: sans-serif;
+	color: #c7b3e5;
+}
+
+.text-form2 {
+	font-size: 13px;
+	margin-left: -30%;
+	text-align: center;
+	font-family: sans-serif;
+	color: #c7b3e5;
+}
+
+.button-1 {
+	font-size: 13px;
+	background-color: BlueGray;
+	font-family: sans-serif;
+	color: #c7b3e5;
+	border:	1px solid;
+	border-radius: 0%;
+	margin-left: 10%;
+	margin-top: 10%;
+}
+
+.button-2 {
+	font-size: 13px;
+	background-color: BlueGray;
+	font-family: sans-serif;
+	color: #c7b3e5;
+	border:	1px solid;
+	border-radius: 0%;
+	margin-left: 13%;
+}
+
+.button0 {
+	font-size: 0px;
 }
