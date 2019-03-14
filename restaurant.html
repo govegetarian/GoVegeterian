@@ -22,31 +22,35 @@
           </div>
 
           <div class="search-bar">
-            <form class="form-search-bar">
-                <input onfocus="searchFocus()" id="search-bar-id" type="text" placeholder="search for a recipe or restaurant">
-                <button type="submit"></button>
+            <form autocomplete='off' class="form-search-bar">
+                <input id="search-bar-id" type="text" placeholder="search for a recipe or restaurant">
+                <button></button>
             </form>
           </div>
 
-          <div id="filter_id" class="filter">
-            <div><strong>Filter Options</strong></div>
-            <div onclick="expCost()" class="filter_item"><span class="key_down">Cost of Preparation</span><span><i id="cost_prep" class="material-icons">keyboard_arrow_down
-</i></span></div>
-            <form class="cost_check">
+          <div class="filter">
+            <div onclick='filterFocus()' class='filter_head' ><strong>Filter</strong></div>
+            <div id="filter_item1" class="filter_item">
+            <form class='cost_check'>
+                <label class='filter_lab' for='cost'>Cost:</label>
                 <input type="checkbox" name="cost1" value="cost1"> $
                 <input type="checkbox" name="cost2" value="cost2"> $$
                 <input type="checkbox" name="cost3" value="cost3"> $$$
             </form>
+            </div>
 
-            <div onclick="expIng()" class="filter_item"><span class="key_down">Main Ingredient</span><span><i id="main_ing" class="material-icons">keyboard_arrow_down
-</i></span></div>
-                <form class="ing_check">
+            <div id="filter_item2" class="filter_item">
+                <form class='cost_check'>
+                <label class='filter_lab' for='ingredient'>Ingredient: </label>
                 <input type="checkbox" name="ing" value="Tofu">Tofu
                 <input type="checkbox" name="ing" value="Tempeh">Tempeh
                 <input type="checkbox" name="ing" value="Eggs">Eggs
             </form>
+            </div>
 
-            <div></div>
+           <div id="filter_item3" class='filter_item'>
+            <button class='apply_filter_item' >Apply</button>
+           </div> 
           </div>
 
           <div class="search-result">

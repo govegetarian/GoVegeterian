@@ -1,12 +1,26 @@
 expCostFlag = false;
 expIngFlag = true;
+expandedFlag = false;
 
 function removeFocus() {
     $('#filter_id').css("display","none");   
 }
 
-function searchFocus() {
-    $('#filter_id').css("display","block");   
+function filterFocus() {
+    if (expandedFlag == false) {
+    $('#filter_item1').css("display","block");   
+    $('#filter_item2').css("display","block");
+    $('#filter_item3').css("display","block");      
+        expandedFlag = true;     
+    }
+    else {
+        $('#filter_item1').css("display","none");   
+        $('#filter_item2').css("display","none");   
+        $('#filter_item3').css("display","none");   
+        expandedFlag = false;     
+    
+    }
+    
 }
 
 
