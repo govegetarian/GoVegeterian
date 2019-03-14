@@ -124,7 +124,7 @@ body {
 	border: 0;
 	position: absolute;
 	margin-left: 270px;
-	margin-top: 1.5%;
+	margin-top: 0.8%;
 	color: #fdffdf;
     padding:0;
     border-radius: 50%;
@@ -361,16 +361,21 @@ body {
     color: #c7b3e5;
     margin-top: 15px;
     margin-right: 15px;  
+    border-radius: 25px;
 }
 
 
 .filter .filter_head{
     text-align: left;
-    margin-left: 4px;
+    margin-left: 14px;
     margin-bottom: 3px;
     margin-top: 4px;
-    padding-top: 3px;
+    padding-top: 8px;
     cursor: pointer;
+    height: 24px;
+}
+
+.filter strong {
 }
 
 .material-icons.md-3 {
@@ -398,7 +403,9 @@ body {
 	color: #fdffdf;
 }
 
-.search-bar {background: #f3d7b5;}
+.search-bar {background: #f3d7b5;
+    padding-left: 7%;
+}
 
 .search-bar form {
     height: 33px;
@@ -431,7 +438,7 @@ body {
 		padding-left: 10%;
 
 
-        width: 250px;
+        width: 270px;
         border-radius: 40px;
         border: 2px solid #324B4E;
         background: #F9F0DA;
@@ -444,7 +451,7 @@ body {
 		outline: none;
 		height: 90%;
 		padding-left: 13px;
-        width: 250px;
+        width: 270px;
 }
 .search-bar button {
 		border: none;
@@ -523,10 +530,11 @@ body {
 .search-result2 {
 	background-color: #F9F0DA;
 	padding: 0px;
-	margin: 10px;
+	margin-bottom: 5%;
 	margin-left: 12px;
-	margin-top: -5%;
-	height: 15%;
+	margin-top: 5%;
+    margin-right: 10%;
+	height: 14.5%;
 	width: 90%;
 	border: 1px solid white;
 }

@@ -33,51 +33,46 @@
             <div id="filter_item1" class="filter_item">
             <form class='cost_check'>
                 <label class='filter_lab' for='cost'>Cost:</label>
-                <input type="checkbox" name="cost1" value="cost1"> $
-                <input type="checkbox" name="cost2" value="cost2"> $$
-                <input type="checkbox" name="cost3" value="cost3"> $$$
+                <input id='one_dollar' type="checkbox" name="cost1" value="cost1"> $
+                <input id='two_dollar' type="checkbox" name="cost2" value="cost2"> $$
+                <input id='three_dollar' type="checkbox" name="cost3" value="cost3"> $$$
             </form>
             </div>
 
             <div id="filter_item2" class="filter_item">
                 <form class='cost_check'>
                 <label class='filter_lab' for='ingredient'>Ingredient: </label>
-                <input type="checkbox" name="ing" value="Tofu">Tofu
-                <input type="checkbox" name="ing" value="Tempeh">Tempeh
-                <input type="checkbox" name="ing" value="Eggs">Eggs
+                <input id='tofu_id' type="checkbox" name="ing" value="Tofu">Tofu
+                <input id='tempeh_id' type="checkbox" name="ing" value="Tempeh">Tempeh
+                <input id='eggs_id' type="checkbox" name="ing" value="Eggs">Eggs
             </form>
             </div>
 
            <div id="filter_item3" class='filter_item'>
-            <button class='apply_filter_item' >Apply</button>
+            <button onclick='applyClick()' class='apply_filter_item' >Apply</button>
            </div> 
           </div>
 
-          <div class="search-result">
 
             <a href="restaurant1.html" style='text-decoration: none;'>
-            <div class="search-result1">
+            <div id = 'r1' class="search-result2">
                 <img class = "img" src="images/restaurant1.jpg" alt="img1">
                 <p class = "text3">The Glass Onion</p>
             </div>
             </a>
-            <br>
-            <div class="search-result2">
+            <div id = 'r2' class="search-result2">
                 <img class = "img" src="images/restaurant2.jpg" alt="img1">
                 <p class = "text3">He’s Not Here Bar</p>
             </div>
-            <br>
-            <div class="search-result3">
+            <div id = 'r3' class="search-result2">
                 <img class = "img" src="images/restaurant3.jpg" alt="img1">
                 <p class = "text3">Pita Pan</p>
             </div>
-            <br>
-            <div class="search-result4">
+            <div id = 'r4' class="search-result2">
                 <img class = "img" src="images/restaurant4.jpg" alt="img1">
                 <p class = "text3">Joe's Restaurant</p>
             </div>
           </div>
-        </div>
    </body>
 </html>
 <!--
