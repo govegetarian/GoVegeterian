@@ -21,10 +21,10 @@
                 </div>
           </div>
                   
-           <textarea style='resize: none;' class='review-text-box' type='text'>"Write your review here ..."</textarea>
+           <textarea id='post_content' style='resize: none;' class='review-text-box' placeholder='Write your review here ...' type='text'></textarea>
 
           <button type="button" class = "newpost-button"
-            onclick="document.getElementById('msg').innerHTML = 'Submitted, the Administrator is auditing'">
+            onclick="addPost()">
             Submit</button>
             <div id="msg" class = "newpost-text1"></p>
 

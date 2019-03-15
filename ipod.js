@@ -182,3 +182,12 @@ function applyClick() {
     }
     
 }
+
+
+function addPost(){
+    let text_content = $('#post_content').val();
+    localStorage.setItem('userPost', text_content);   
+}
+
+
+
