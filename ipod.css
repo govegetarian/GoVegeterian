@@ -85,7 +85,7 @@ body {
   left: 0;
 
   -webkit-animation: bounce 2.0s infinite ease-in-out;
-  animation: bounce 2.0s infinite ease-in-out;
+  animation: bounce 3.0s infinite ease-in-out;
 }
 
 .double-bounce3 {
@@ -599,6 +599,7 @@ body {
 	text-align: center;
 	font-family: sans-serif;
 	color: #c7b3e5;
+    
 }
 
 .text-user {
@@ -674,8 +675,10 @@ body {
 	height: 15%;
 	width: 90%;
 	border: 1px solid white;
+    font-size: 0px;
+    text-decoration: none;
 }
-
+a{ text-decoration:none} 
 .social1 {
 	position: relative;
 	background-color: #F9F0DA;
